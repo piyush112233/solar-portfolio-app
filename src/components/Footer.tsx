@@ -4,18 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
-  const message = `*Hello Sir/Madam*, 
-
-  I just visited your *Solar Services* website and I am really interested in your offerings.
-
-  Please share more details regarding:
-    - Rooftop Solar Installation 
-    - Pricing and Packages 
-    - Government Subsidies & Support 
-
-  Looking forward to connecting with your team. 
-
-  Thanks & Regards`;
   const phone = "919664405815";
   const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   const handlePhoneClick = () => {
@@ -33,8 +21,21 @@ export default function Footer() {
     );
   };
   const handleWhatsappClick = () => {
-    const msg = "Hi, I am interested in your solar services.";
-    const url = `https://wa.me/919664405815?text=${encodeURIComponent(msg)}`;
+    const message = `*Hello Sir/Madam*, 
+
+      I just visited your *Solar Services* website and I am really interested in your offerings.
+
+      Please share more details regarding:
+        - Rooftop Solar Installation 
+        - Pricing and Packages 
+        - Government Subsidies & Support 
+
+      Looking forward to connecting with your team. 
+
+      Thanks & Regards`;
+    const url = `https://wa.me/919664405815?text=${encodeURIComponent(
+      message
+    )}`;
     window.open(url, "_blank"); // 📲 WhatsApp
   };
   return (
