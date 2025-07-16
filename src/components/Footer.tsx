@@ -4,8 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
-  const phone = "919664405815";
-  const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+  // const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
   const handlePhoneClick = () => {
     window.location.href = "tel:+919664405815"; // 📞 call link
   };
@@ -21,6 +20,7 @@ export default function Footer() {
     );
   };
   const handleWhatsappClick = () => {
+    const phone = "919664405815";
     const message = `*Hello Sir/Madam*, 
 
       I just visited your *Solar Services* website and I am really interested in your offerings.
@@ -33,9 +33,7 @@ export default function Footer() {
       Looking forward to connecting with your team. 
 
       Thanks & Regards`;
-    const url = `https://wa.me/919664405815?text=${encodeURIComponent(
-      message
-    )}`;
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank"); // 📲 WhatsApp
   };
   return (
