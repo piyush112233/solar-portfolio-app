@@ -360,7 +360,7 @@ export default function ContactSection() {
                     <div>
                       <div className="font-semibold text-lg">Email Support</div>
                       <div className="opacity-90 text-lg">
-                        info@solartechpro.com
+                        dakshsolarpower0102@gmail.com
                       </div>
                       <div className="opacity-75 text-sm">
                         Quick response guaranteed
@@ -375,7 +375,9 @@ export default function ContactSection() {
                       <div className="font-semibold text-lg">
                         Visit Our Office
                       </div>
-                      <div className="opacity-90 text-lg">123 Solar Street</div>
+                      <div className="opacity-90 text-lg">
+                        SNO 28/RSM/100 RHB, SECTOR 28, Pratap Nager
+                      </div>
                       <div className="opacity-90 text-lg">
                         Jaipur, Rajasthan 302001
                       </div>

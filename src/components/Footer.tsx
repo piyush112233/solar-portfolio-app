@@ -41,7 +41,7 @@ export default function Footer() {
             <div className="w-10 h-10 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full flex items-center justify-center">
               <Sun className="w-6 h-6 text-white" />
             </div>
-            <span className="text-2xl font-bold">SolarTech Pro</span>
+            <span className="text-2xl font-bold">Daksh SolarTech India</span>
           </div>
           <p className="text-gray-400 mb-6">
             Leading the solar revolution with innovative renewable energy
@@ -68,7 +68,8 @@ export default function Footer() {
           </div>
           <div className="border-t border-gray-800 pt-6">
             <p className="text-gray-400">
-              &copy; 2024 SolarTech Pro. All rights reserved.
+              &copy; 2024 Daksh SolarTech India. All rights reserved. | Designed
+              & Maintained by Sawhney Electricals
             </p>
           </div>
         </div>
