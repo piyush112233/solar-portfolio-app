@@ -10,14 +10,11 @@ export default function Footer() {
   };
 
   const handleMailClick = () => {
-    window.location.href = "mailto:solar@example.com"; // 📧 email link
+    window.location.href = "mailto:dakshsolarpower0102@gmail.com"; // 📧 email link
   };
 
   const handleLocationClick = () => {
-    window.open(
-      "https://www.google.com/maps?q=World+Trade+Park,+Jawahar+Lal+Nehru+Marg,+D-Block,+Malviya+Nagar,+Jaipur,+Rajasthan+302017",
-      "_blank"
-    );
+    window.open("https://www.google.com/maps?q=26.799333,75.838917", "_blank");
   };
   const handleWhatsappClick = () => {
     const phone = "919664405815";
